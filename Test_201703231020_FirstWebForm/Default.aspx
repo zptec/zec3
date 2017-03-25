@@ -52,7 +52,7 @@
                 });
         }
         $(document).ready(getPrices);
-    </script>
+    </script> 
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
