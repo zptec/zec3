@@ -24,7 +24,7 @@
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--若要了解有关在 ScriptManager 中绑定脚本的详细信息，请参阅 https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--框架脚本--%>
+                <%--框架脚本--%> 
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
                 <asp:ScriptReference Name="bootstrap" />
