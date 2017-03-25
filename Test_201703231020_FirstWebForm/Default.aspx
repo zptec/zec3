@@ -57,7 +57,7 @@
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 
-    <h2>ZEC</h2>
+    <h2>Z³</h2>
     <table>
 <%--    <thead>
         <tr><th>Name</th><th>Price</th></tr>
