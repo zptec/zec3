@@ -63,6 +63,15 @@
             most popular browsers.<br />
 
         </asp:Panel>
+
+        <ajaxtoolkit:animationextender id="ae" runat="server" targetcontrolid="Panel1">
+         <Animations>
+         <OnLoad>
+         <FadeOut Duration="1.5" Fps="24" />
+         </OnLoad>
+         </Animations>
+
+        </ajaxtoolkit:animationextender>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
