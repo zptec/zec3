@@ -41,7 +41,6 @@
                 <%--站点脚本--%>
             </Scripts>
         </asp:ScriptManager>
-        <asp:ScriptManager ID="asm" runat="server" />
         
         <asp:Panel ID="panelShadow" runat="server" CssClass="panelClass">
 
