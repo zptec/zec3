@@ -16,7 +16,10 @@ namespace Test_201703231020_FirstWebForm
         public void Send(string name, string message)
         {
             // Call the broadcastMessage method to update clients.
-            Clients.All.broadcastMessage(name, message);
+            //Clients.All.broadcastMessage(name, message);
+
+            // Call the addNewMessageToPage method to update clients.
+            Clients.All.addNewMessageToPage(name, message);
         }
 
     }
