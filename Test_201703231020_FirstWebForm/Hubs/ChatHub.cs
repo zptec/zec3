@@ -8,10 +8,10 @@ namespace Test_201703231020_FirstWebForm
 {
     public class ChatHub : Hub
     {
-        public void Hello()
-        {
-            Clients.All.hello();
-        }
+        //public void Hello()
+        //{
+        //    Clients.All.hello();
+        //}
 
         public void Send(string name, string message)
         {
