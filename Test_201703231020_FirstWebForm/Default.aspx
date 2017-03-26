@@ -29,7 +29,7 @@
             });
         }
         $(document).ready(getProducts);
-    </script>--%> 
+    </script>--%>
     <script type="text/javascript">
         function getPrices() {
             $.getJSON("https://yunbi.com/api/v2/tickers/zeccny.json",
